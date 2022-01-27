@@ -8,6 +8,9 @@ when you call the function again on the same file, it grabs the next line, and s
 We learned about static variables and also we had to deal with memory allocation and free to prevent leaks.
 
 It returns: \
+-1 | Content Cell
+0 | Content Cell
+1 | Content Cell
 	-1 if an error was encountered. \
 	 0 if reached EOF. \
 	 1 when line is read succesfully.
